@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Robot Control</title>
+<link rel="stylesheet" href="style.css"> 
+<script src="script.js"></script>
+</head>
+
+<body>
+    <div id = myDiv>
+        <h1 id = myText>Robot Control</h1>
+    </div>
+          <form action="actions.php" method="POST">
+            <div>
+        
+              <div class= sliderDiv>
+                  <p>Motor 1</p>
+                  <input type="range" min="0" max="180" value="50" class="slider" id='slider1' name="slider1">
+                  <p id= motor1Value></p>
+                </div>
+      
+                <div class= sliderDiv>
+                  <p>Motor 2</p>
+                  <input type="range" min="0" max="180" value="50" class="slider" id='slider2' name="slider2">
+                  <p id= motor2Value></p>
+                </div>
+                <div class= sliderDiv>
+                  <p>Motor 3</p>
+                  <input type="range" min="0" max="180" value="50" class="slider" id='slider3' name="slider3">
+                  <p id= motor3Value></p>
+                </div>
+                <div class= sliderDiv>
+                  <p>Motor 4</p>
+                  <input type="range" min="0" max="180" value="50" class="slider" id='slider4' name="slider4">
+                  <p id= motor4Value></p>
+                </div>
+                <div class= sliderDiv>
+                  <p>Motor 5</p>
+                  <input type="range" min="0" max="180" value="50" class="slider" id='slider5' name="slider5">
+                  <p id= motor5Value></p>
+                </div>
+                <div class= sliderDiv>
+                  <p>Motor 6</p>
+                  <input type="range" min="0" max="180" value="50" class="slider" id='slider6' name="slider6">
+                  <p id= motor6Value></p>
+                </div>
+                <button type="submit" name="save">Save</button> 
+                <button type="submit" name="turned">Turn on/off</button> 
+          </form> 
+        
+    </div>
+</body>
+
+</html>
