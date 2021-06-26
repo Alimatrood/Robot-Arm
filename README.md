@@ -1,4 +1,6 @@
 # Robot-Arm
+- to control the robot, index.html should be used.
+- to retrieve the last values of the 6 motors and the status of the robot arm, informationPage.php should be used.
 
 - This project utilizes the following technologies in order to control a robot arm : HTML, CSS, JAVASCRIPT, PHP and MySQL.
 
